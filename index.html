@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <header>
+    <h1>Mytodo</h1>
+    <p class="heading">Organize your day with simplicity</p>
+   </header>
+   
+   <div class="Task_bar">
+
+    <div class="task">
+        <input type="text" id="Task" placeholder="What is needed to be done?">
+        <button onclick="AddTask()" class="addtask">+ Add Task</button><br>
+        <span>task  <span id="task">0</span></span><span>completed  <span id="complete">0</span></span>
+    </div>
+   </div>
+
+   <div class="task_list">
+    <div class="left" id="left"></div><div class="right" id="right"></div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>

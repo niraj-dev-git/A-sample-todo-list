@@ -1,0 +1,83 @@
+
+
+body{
+    background-color: rgb(213, 225, 249);
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+}
+
+
+header{
+    text-align: center;
+}
+
+h1{
+    margin-bottom:-10px;
+    color: blue;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.heading{
+    font-family:monospace;
+}
+
+#Task{
+    width:20rem;
+    height: 1.5rem;
+    margin-bottom: 3px;
+}
+
+.Task_bar{
+    background-color: aliceblue;
+    width:500px;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.task{
+    margin: 10px; 
+}
+
+.addtask{
+    height:1.5rem;
+    background-image: linear-gradient(to right,#638af6,#657ED4,#6c25df);
+    color:aliceblue;
+    border:none;
+    border-radius: 5px;
+}
+span{
+    margin-right: 5px;
+    color: rgb(107, 102, 102);
+}
+
+.task_list{
+    background-color: aliceblue;
+    width:500px;
+    margin:10px auto;
+    display:flex;
+    border-radius: 10px;
+}
+
+.left,.right{
+    flex:1;
+    padding:5px;
+}
+
+.right{
+    text-align: right;
+}
+
+.delete{
+    background-image: linear-gradient(to left,#820303,#ba3a3a,#fe8d1c);
+    color:aliceblue;
+    border:none;
+    border-radius: 5px;
+}
+
+.complete{
+    background-image: linear-gradient(to left,#086e10,#1e9042,#3de472);
+    color:aliceblue;
+    border:none;
+    border-radius: 5px;
+}
