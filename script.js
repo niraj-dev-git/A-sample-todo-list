@@ -37,6 +37,7 @@ function AddTask(){
         taskcount.innerText=tcount;
         ccount++;
         compcount.innerText=ccount;
+        button2.onclick=null;
     }
     button2.classList.add("complete");
 
